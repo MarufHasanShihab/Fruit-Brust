@@ -16,13 +16,12 @@
 <style>
   *{
       font-family: 'Lato', sans-serif;
-      background: line;
     }
 </style>
 </head>
 <body>
   <!-- Header Section Start -->
-  <header class="container mx-auto px-4 ">
+   <header class="container mx-auto px-4 ">
     <nav class=" mt-3">
       <div class="navbar lg:bg-[#F85559] px-10 rounded-[60px] h-[90px]">
         <div class="navbar-start">
@@ -53,16 +52,16 @@
       </nav>
       <!-- Nav Section End -->
 
-      <!-- Hero Section Start -->
-      <div class="carousel w-full mt-3">
-        <!-- slider-1 -->
+        <!-- Hero Section Start   -->
+       <div class="carousel w-full mt-3">
+         slider-1 
         <div id="slide1" class="carousel-item relative w-full h-[500px]">
           <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner1.png); background-position: center;">
-            <div class="flex justify-center mt-10">
+            <div class="flex justify-center mt-8">
             <div>
             <h1 class=" text-[60px] text-white text-center font-extrabold">Exotic tastes at your<br> doorstep</h1>
             <p class="text-center text-white font-semibold">We supply highly quality organic products</p>
-            <div class="flex justify-center mt-8">
+            <div class="flex justify-center mt-10">
             <button class="btn bg-[#F85559] border-none text-white hover:text-black">Shop Now</button>
           </div>
           </div>
@@ -76,7 +75,7 @@
         <!-- Slider-2 -->
         <div id="slide2" class="carousel-item relative w-full">
           <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner2.png); background-position: center;">
-            <div class="flex justify-center mt-10">
+            <div class="flex justify-center mt-6">
             <div>
             <h1 class=" text-[60px] text-white text-center font-extrabold">Exotic tastes at your<br> doorstep</h1>
             <p class="text-center text-white font-semibold">We supply highly quality organic products</p>
@@ -94,7 +93,7 @@
         <!-- slider-3 -->
         <div id="slide3" class="carousel-item relative w-full">
           <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner3.png); background-position: center;">
-            <div class="flex justify-center mt-10">
+            <div class="flex justify-center mt-6">
             <div>
             <h1 class=" text-[60px] text-white text-center font-extrabold">Exotic tastes at your<br> doorstep</h1>
             <p class="text-center text-white font-semibold">We supply highly quality organic products</p>
@@ -112,7 +111,7 @@
         <!-- slider-4 -->
         <div id="slide4" class="carousel-item relative w-full">
           <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner4.png); background-position: center;">
-            <div class="flex justify-center mt-10">
+            <div class="flex justify-center mt-6">
             <div>
             <h1 class=" text-[60px] text-white text-center font-extrabold">Exotic tastes at your<br> doorstep</h1>
             <p class="text-center text-white font-semibold">We supply highly quality organic products</p>
@@ -129,7 +128,7 @@
         </div>
       </div>
 
-      <section class="px-20">
+      <section class="px-20 hidden lg:block">
         <div class="flex justify-center gap-20 bg-white relative bottom-20 rounded-[12px] py-4">
           <div>
             <img class="w-[100px]" src="images/fruit1.png">
@@ -157,6 +156,132 @@
           </div>
         </div>
       </section>
-  </header>
+  </header> 
+  <!-- Header Section End -->
+
+  <!-- Main Section Start -->
+  <main class="container mx-auto px-4 py-[100px] ">
+    <div class="flex flex-col px-4 lg:flex-row justify-between">
+    <div>
+      <h2 class="text-[#121212] font-extrabold text-[48px]">Deal of the day</h2>
+      <p class="w-[400px] lg:w-[615px] text-[rgba(18, 18, 18, 0.60)] leading-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+    <div>
+      <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:15;"></span>
+          </span>
+          days
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:10;"></span>
+          </span>
+          hours
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:24;"></span>
+          </span>
+          min
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-mono text-5xl">
+            <span style="--value:46;"></span>
+          </span>
+          sec
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="pt-32">
+  <div class=" grid justify-center gap-8 grid-1 md:grid-cols-2 lg:grid-cols-4">
+      <!-- Card-1 -->
+      <div>
+      <div class="card w-[300px] bg-base-100 ">
+        <figure><img src="images/fruit6.png"></figure>
+        <div class="card-body">
+          <h2 class="card-title justify-center text-[#121212] text-[24px] font-semibold">12.90$ - 18.85$</h2>
+          <p class="text-center font-medium mt-3">Apples</p>
+          <div class="rating justify-center mt-3">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div>
+          <div class="card-actions justify-center">
+            <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Card-2 -->
+      <div>
+      <div class="card w-[300px] bg-base-100">
+        <figure><img class="w-[130px]" src="images/fruit7.png"></figure>
+        <div class="card-body">
+          <h2 class="card-title justify-center text-[#121212] text-[24px] font-semibold ">12.90$ - 18.85$</h2>
+          <p class="text-center font-medium mt-3">Apples</p>
+          <div class="rating justify-center mt-3">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div>
+          <div class="card-actions justify-center">
+            <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Card-3 -->
+      <div>
+        <div class="card w-[300px] bg-base-100 ">
+          <figure><img src="images/fruit8.png"></figure>
+          <div class="card-body">
+            <h2 class="card-title justify-center text-[#121212] text-[24px] font-semibold">12.90$ - 18.85$</h2>
+            <p class="text-center font-medium mt-3">Apples</p>
+            <div class="rating justify-center mt-3">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <div class="card-actions justify-center">
+              <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card-4 -->
+      <div>
+        <div class="card w-[300px] bg-base-100 ">
+          <figure><img src="images/fruit9.png"></figure>
+          <div class="card-body">
+            <h2 class="card-title justify-center text-[#121212] text-[24px] font-semibold">12.90$ - 18.85$</h2>
+            <p class="text-center font-medium mt-3">Apples</p>
+            <div class="rating justify-center mt-3">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <div class="card-actions justify-center">
+              <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</section>
+  </main>
 </body>
 </html>
