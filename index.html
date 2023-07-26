@@ -21,7 +21,7 @@
 </head>
 <body>
   <!-- Header Section Start -->
-   <header class="container mx-auto px-4 ">
+   <header class="container mx-auto px-10 ">
     <nav class=" mt-3">
       <div class="navbar lg:bg-[#F85559] px-10 rounded-[60px] h-[90px]">
         <div class="navbar-start">
@@ -160,13 +160,13 @@
   <!-- Header Section End -->
 
   <!-- Main Section Start -->
-  <main class="container mx-auto px-4 py-[100px] ">
+  <main class="container mx-auto px-10 py-[100px] ">
     <div class="flex flex-col px-4 lg:flex-row justify-between">
     <div>
       <h2 class="text-[#121212] font-extrabold text-[48px]">Deal of the day</h2>
       <p class="w-[400px] lg:w-[615px] text-[rgba(18, 18, 18, 0.60)] leading-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
     </div>
-    <div>
+    <div class="pt-10">
       <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
         <div class="flex flex-col">
           <span class="countdown font-mono text-5xl">
@@ -212,7 +212,7 @@
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
           <div class="card-actions justify-center">
-            <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+            <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
           <div class="card-actions justify-center">
-            <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+            <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
           </div>
         </div>
       </div>
@@ -253,7 +253,7 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="card-actions justify-center">
-              <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+              <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
             </div>
           </div>
         </div>
@@ -274,14 +274,21 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="card-actions justify-center">
-              <h3 class="mt-3 text-[#F85559] font-bold">Details</h3>
+              <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="mt-12 flex justify-center">
+      <button class="btn btn-error text-white bg-[#F85559] font-extrabold">Shop All</button>
+    </div>
+  </section>
 
-  </div>
-</section>
+  <section>
+    <div id="slide1" class="carousel-item relative w-full h-[500px]">
+      <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner1.png); background-position: center;">
+  </section>
   </main>
 </body>
 </html>
