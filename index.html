@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <!-- Box Icon Link -->
+  <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 <style>
   *{
       font-family: 'Lato', sans-serif;
@@ -21,7 +22,7 @@
 </head>
 <body>
   <!-- Header Section Start -->
-   <header class="container mx-auto px-10 ">
+   <header class="container mx-auto ">
     <nav class=" mt-3">
       <div class="navbar lg:bg-[#F85559] px-10 rounded-[60px] h-[90px]">
         <div class="navbar-start">
@@ -54,9 +55,9 @@
 
         <!-- Hero Section Start   -->
        <div class="carousel w-full mt-3">
-         slider-1 
+         <!-- slider-1  -->
         <div id="slide1" class="carousel-item relative w-full h-[500px]">
-          <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner1.png); background-position: center;">
+          <div class="w-full h-[500px] rounded-[12px] bg-cover bg-center bg-no-repeat" style="background-image: url(images/banner1.png);">
             <div class="flex justify-center mt-8">
             <div>
             <h1 class=" text-[60px] text-white text-center font-extrabold">Exotic tastes at your<br> doorstep</h1>
@@ -92,7 +93,7 @@
         </div> 
         <!-- slider-3 -->
         <div id="slide3" class="carousel-item relative w-full">
-          <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner3.png); background-position: center;">
+          <div class="w-full h-[500px] rounded-[12px] bg-cover bg-center bg-no-repeat" style="background-image: url(images/banner3.png);">
             <div class="flex justify-center mt-6">
             <div>
             <h1 class=" text-[60px] text-white text-center font-extrabold">Exotic tastes at your<br> doorstep</h1>
@@ -161,10 +162,10 @@
 
   <!-- Main Section Start -->
   <main class="container mx-auto px-10 py-[100px] ">
-    <div class="flex flex-col px-4 lg:flex-row justify-between">
-    <div>
+    <div class="flex flex-col px-2 lg:px-4 lg:flex-row justify-between">
+    <div class="text-center lg:text-left">
       <h2 class="text-[#121212] font-extrabold text-[48px]">Deal of the day</h2>
-      <p class="w-[400px] lg:w-[615px] text-[rgba(18, 18, 18, 0.60)] leading-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+      <p class="w-[300px] lg:w-[615px] text-[rgba(18, 18, 18, 0.60)] leading-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
     </div>
     <div class="pt-10">
       <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
@@ -285,9 +286,96 @@
     </div>
   </section>
 
-  <section>
-    <div id="slide1" class="carousel-item relative w-full h-[500px]">
-      <div class="w-full h-[500px] rounded-[12px]" style="background-image: url(images/banner1.png); background-position: center;">
+  <section class="mt-[130px]">
+    <div id="slide3" class="carousel-item relative w-full">
+      <div class="lg:w-full w-[350px] lg:h-[600px] rounded-[12px] bg-cover bg-center bg-no-repeat " style="background-image: url(images/banner1.png);">
+        <div class=" lg:h-[520px] bg-black/70">
+        <div class="flex justify-center lg:mt-20">
+          <div>
+          <h2 class="text-white text-[48px] font-extrabold text-center">Meet the team</h2>
+          <p class="w-[300px] lg:w-[615px] text-white font-medium text-center ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        </div>
+
+        <div class="lg:pl-[80px] pr-10 py-14 grid grid-cols-1 lg:grid-cols-4">
+          <!-- Member-1 -->
+          <div>
+            <div class="card">
+              <figure><img src="images/member1.png"></figure>
+              <div class="card-body">
+                <h2 class="text-[24px] text-white font-bold  text-center">Awlad Hossain</h2>
+                <p class="text-white text-[16px] font-bold text-center">Fruits Expert</p>
+                
+                <div class="card-actions justify-center">
+                  <div class="flex gap-4">
+                    <img src="images/facebook 1.png">
+                    <img src="images/twitter (1) 1.png">
+                    <img src="images/linkedin 1.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Member-2 -->
+          <div>
+            <div class="card">
+              <figure><img src="images/member2.png"></figure>
+              <div class="card-body">
+                <h2 class="text-[24px] text-white font-bold  text-center">Safia Chowdhury</h2>
+                <p class="text-white text-[16px] font-bold text-center">Fruits Expert</p>
+                
+                <div class="card-actions justify-center">
+                  <div class="flex gap-4">
+                    <img src="images/facebook 1.png">
+                    <img src="images/twitter (1) 1.png">
+                    <img src="images/linkedin 1.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member-3 -->
+          <div>
+            <div class="card">
+              <figure><img src="images/member3.png"></figure>
+              <div class="card-body">
+                <h2 class="text-[24px] text-white font-bold  text-center">Rokib Hossain</h2>
+                <p class="text-white text-[16px] font-bold text-center">Fruits Expert</p>
+                
+                <div class="card-actions justify-center">
+                  <div class="flex gap-4">
+                    <img src="images/facebook 1.png">
+                    <img src="images/twitter (1) 1.png">
+                    <img src="images/linkedin 1.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member-4 -->
+          <div>
+            <div class="card">
+              <figure><img src="images/member4.png"></figure>
+              <div class="card-body">
+                <h2 class="text-[24px] text-white font-bold  text-center">Chaity</h2>
+                <p class="text-white text-[16px] font-bold text-center">Fruits Expert</p>
+                
+                <div class="card-actions justify-center">
+                  <div class="flex gap-4">
+                    <img src="images/facebook 1.png">
+                    <img src="images/twitter (1) 1.png">
+                    <img src="images/linkedin 1.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </section>
   </main>
 </body>
