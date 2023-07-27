@@ -221,11 +221,36 @@
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
           <div class="card-actions justify-center">
-            <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
-          </div>
+            <!-- Open the modal using ID.showModal() method -->
+          <button class="btn text-[#F85559] font-bold" onclick="my_modal_1.showModal()">Details</button>
+          <dialog id="my_modal_1" class="modal">
+            <form method="dialog" class="modal-box">
+              <div class=" flex justify-center">
+                <img src="images/fruit6.png">
+              </div>
+            <h3 class="font-extrabold text-lg text-center mt-4 text-[40px]">Apples</h3>
+            <p class="py-4 w-[415px] text-center text-[rgba(18, 18, 18, 0.60)]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class="flex justify-center">
+            <div class="rating mt-3">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            </div>
+            <div class="modal-action justify-center gap-4">
+                <!-- if there is a button in form, it will close the modal -->
+              <button class="btn text-[#F85559] border-solid border-2 border-[#F85559]">Close</button>
+              <button class="btn bg-[#F85559] text-white hover:text-[#F85559]">Buy Now</button>
+              </div>
+            </form>
+          </dialog>
+            
+         </div>
         </div>
       </div>
-    </div>
+      </div>
 
       <!-- Card-2 -->
       <div>
@@ -242,7 +267,8 @@
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
           <div class="card-actions justify-center">
-            <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
+            
+
           </div>
         </div>
       </div>
@@ -262,7 +288,7 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="card-actions justify-center">
-              <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
+           
             </div>
           </div>
         </div>
@@ -283,7 +309,7 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
             </div>
             <div class="card-actions justify-center">
-              <a class="mt-3 text-[#F85559] font-bold" href="#">Details</a>
+          
             </div>
           </div>
         </div>
@@ -305,7 +331,7 @@
         </div>
         </div>
 
-        <div class="lg:pl-[80px] pr-10 py-14 grid grid-cols-1 lg:grid-cols-4">
+        <div class="pl-[70px] lg:pl-[80px] pr-10 py-14 grid grid-cols-1 lg:grid-cols-4 ">
           <!-- Member-1 -->
           <div>
             <div class="card">
@@ -389,37 +415,37 @@
   <section class="mt-[140px]">
     <div class="flex justify-center">
       <div>
-    <h2 class="text-[#121212] text-[48px] font-extrabold text-center ">Why Choose Us</h2>
-    <p class="text-[rgba(18, 18, 18, 0.60)] w-[400px] lg:w-[615px] text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    <h2 class="text-[#121212] text-[42px] lg:text-[48px] font-extrabold text-center ">Why Choose Us</h2>
+    <p class="text-[rgba(18, 18, 18, 0.60)] w-[300px] lg:w-[615px] text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
   </div>
   </div>
     <di class="flex gap-5 mt-12 flex-col lg:flex-row">
       <div>
-        <div class="flex">
-          <div class="mr-6 flex items-center">
-            <img class="w-8 h-8 " src="images/group 1.png">
+        <div class="flex flex-col lg:flex-row">
+          <div class="mr-6 flex justify-center lg:items-center">
+            <img class="w-12 lg:w-8 lg:h-8 " src="images/group 1.png">
           </div>
-          <div>
+          <div class="text-center lg:text-left">
           <h3 class="text-[#121212] text-[28px] font-extrabold">Dedicated Team</h3>
           <p class="w-[300px] leading-7 text-[18px] ">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         </div>
         </div>
-        <div class="flex mt-12">
-          <div class="flex items-center mr-6">
-            <img class="w-8 h-8" src="images/love 1.png">
+        <div class="flex flex-col lg:flex-row mt-12">
+          <div class="flex justify-center lg:items-center mr-6">
+            <img class=" w-12 lg:w-8 lg:h-8" src="images/love 1.png">
           </div>
-          <div>
+          <div class="text-center lg:text-left">
           <h3 class="text-[#121212] text-[28px] font-extrabold">Fresh is Best</h3>
           <hr>
           <p class="w-[300px] leading-7 text-[18px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         </div>
         </div>
 
-        <div class="flex mt-12">
-          <div class="flex items-center mr-6">
-            <img class="w-8 h-8" src="images/gift-box 1.png">
+        <div class="flex flex-col lg:flex-row mt-12">
+          <div class="flex justify-center lg:items-center mr-6">
+            <img class="w-12 lg:w-8 lg:h-8" src="images/gift-box 1.png">
           </div>
-          <div>
+          <div class="text-center lg:text-left">
           <h3 class="text-[#121212] text-[28px] font-extrabold" >Gift Certificates</h3>
           <hr>
           <p class="w-[300px] leading-7 text-[18px]">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
